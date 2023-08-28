@@ -1,0 +1,333 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  custom_menu_title = DünyaMC Client 1.19.3   oyna.dunyamc.com / .gg/dunyamc
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = fancymenu/panoramas/8436181.jpg
+  action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 2
+}
+
+customization {
+  baseheight = 1017
+  action = autoscale
+  basewidth = 1920
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = top-left
+  x = 133
+  action = movebutton
+  y = 211
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 115
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu/panoramas/beach_button_hover.png
+  backgroundnormal = fancymenu/panoramas/beach_button.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  orientation = mid-left
+  x = 133
+  action = movebutton
+  y = 32
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  width = 19
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = top-left
+  x = 133
+  action = movebutton
+  y = 235
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 115
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu/panoramas/beach_button_hover.png
+  backgroundnormal = fancymenu/panoramas/beach_button.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = top-left
+  x = 133
+  action = movebutton
+  y = 260
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 115
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu/panoramas/beach_button_hover.png
+  backgroundnormal = fancymenu/panoramas/beach_button.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = top-left
+  x = 157
+  action = movebutton
+  y = 286
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = top-left
+  x = 133
+  action = movebutton
+  y = 187
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 115
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu/panoramas/beach_button_hover.png
+  backgroundnormal = fancymenu/panoramas/beach_button.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 346
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 0cee1923-ca12-4d62-9596-29a7a625e78d1688384961095
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 298
+  action = deep_customization_element:title_screen_branding
+  actionid = bee3fa7b-9817-45ce-a1a5-65d3569712141688384961105
+  y = 467
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 731
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 3119a2e0-12a2-45e2-96f1-f8116890abf01688384961105
+  y = 489
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 583
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 3014e40a-b025-47c0-861b-51dad85a6ed31688384961105
+  y = 227
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 343
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = fe3d5e8a-7461-4d01-9865-cd9a3ec1eaad1688384961105
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = mid-left
+  splash_color = #ffff00
+  hidden = true
+  x = 351
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 9148a2e6-feb9-4fbe-9c3f-be0f29821a821688384961105
+  y = 56
+  height = 30
+}
+
+customization {
+  orientation = top-left
+  copy_client_player = true
+  slim = false
+  auto_skin = false
+  scale = 80
+  headrotationy = 0.0
+  headrotationx = 0.0
+  showname = true
+  crouching = false
+  follow_mouse = true
+  x = 68
+  width = 48
+  parrot_left_shoulder = false
+  action = custom_layout_element:fancymenu_customization_player_entity
+  actionid = bddfa7ff-a612-41d5-ae85-ee166960e7181688385292052
+  y = 142
+  playername = arwalee
+  bodyrotationx = 0.0
+  parrot = true
+  bodyrotationy = 0.0
+  auto_cape = false
+  is_baby = false
+  height = 144
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = Aktif Oyuncu : &e{"placeholder":"serverplayercount","values":{"ip":"oyna.dunyamc.com:25565"}}%n%Sunucu Durumu : &eAktif %n%%n%
+  text_border = 2
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 794
+  width = 200
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = c9cf119b-3a2b-4472-95a8-da2903a81cd11688386220181
+  y = 450
+  alignment = left
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = joinserver;oyna.dunyamc.com%btnaction_splitter_fm%
+  backgroundhovered = fancymenu/panoramas/fire_button_hover.png
+  label = Sunucuya Bağlan
+  loopbackgroundanimations = true
+  x = 794
+  width = 100
+  action = addbutton
+  actionid = 5ceb3d2a-b337-4320-82d8-36cb8ce53caa1688386436015
+  y = 474
+  backgroundnormal = fancymenu/panoramas/fire_button.png
+  height = 20
+}
+
+customization {
+  path = fancymenu/panoramas/logo.gif
+  orientation = top-left
+  x = 732
+  width = 56
+  action = addtexture
+  actionid = 143ed1b4-8bbc-49cc-8f7b-c5b198255afe1688386560452
+  y = 443
+  height = 58
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://dunyamc.com%btnaction_splitter_fm%
+  backgroundhovered = fancymenu/panoramas/beach_button_hover.png
+  label = Site
+  loopbackgroundanimations = true
+  x = 899
+  width = 55
+  action = addbutton
+  actionid = 3ef8ea06-1503-49c6-81ab-b32fe1bbe2251688387266140
+  y = 474
+  backgroundnormal = fancymenu/panoramas/beach_button.png
+  height = 20
+}
+
+customization {
+  path = 
+  orientation = top-left
+  x = 0
+  width = 0
+  action = addtexture
+  actionid = 6ccbd6f6-e31a-4192-a524-6e6254c7cf511688387449652
+  y = 10
+  height = 100
+}
+

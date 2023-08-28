@@ -1,0 +1,62 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = fancymenu/panoramas/e5e414169083013.6448401788a16.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=55%
+  orientation = mid-left
+  x = 217
+  action = movebutton
+  y = 227
+}
+
+customization {
+  identifier = %id=55%
+  action = setbuttonlabel
+  value = Kullanıcı Adı Değiştir
+}
+
+customization {
+  identifier = %id=55%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu/panoramas/beach_button_hover.png
+  backgroundnormal = fancymenu/panoramas/beach_button.png
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = Sunucuya Girişte Kaynak Paketlerini aktif etmeyi unutmayınız.
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 641
+  width = 307
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 10b70c0a-e012-4da7-870a-e11d3ed49a431688387759558
+  y = 463
+  alignment = left
+  height = 40
+}
+

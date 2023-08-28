@@ -1,0 +1,87 @@
+{
+	"launcher_version":"0.0.1",
+   "haberler":[
+      {
+         "link":"https://asteranw.com",
+         "header":"Yenilikleri Kaçırma!",
+         "lore":"AsteraNW.",
+         "source":"Haber Kaynağı",
+         "image":"https://dunyamc.com/pics/arkaplanli.png"
+      },
+      {
+         "link":"https://dunyamc.com/forum",
+         "header":"Forum",
+         "source":"DünyaMC",
+         "lore":"Sunucumuzun forumunda rehber/duyurular herşeyi bulabilirsin",
+         "image":"https://dunyamc.com/assets/uploads/images/upload/5M2U8q4P5X7.png"
+      },
+	  {
+         "link":"https://dunyamc.com",
+         "header":"Kurban Bayramınız Kutlu Olsun!",
+         "source":"DünyaMC",
+         "lore":"DünyaMC ekibi olarak Kurban bayramınızı kutlarız.",
+         "image":"https://dunyamc.com/assets/uploads/images/upload/o1Z3O2p1P9Z10.jpg"
+      },
+	  {
+         "link":"https://dunyamc.com",
+         "header":"Yeni Hub Sunucusu!",
+         "source":"DünyaMC",
+         "lore":"Diğer oyunları denemeden önce Hub da eğlenin!Tntrun / Paintball / Parkur",
+         "image":"https://dunyamc.com/assets/uploads/images/upload/q7X6M10p2P6P1.png"
+      },
+	  {
+         "link":"https://dunyamc.com/haber/dunyamc-sezon-6-hub-network-sunucusu-aciliyor/18",
+         "header":"DünyaMC Sunucu Bakımı!",
+         "source":"DünyaMC",
+         "lore":"Plansız bakım planlıya dönüştü lütfen duyuruları bekleyiniz.!",
+         "image":"https://wallpaperset.com/w/full/b/4/a/285171.jpg"
+      }
+   ],
+   "sosyal":{
+      "insta":"https://instagram.com/dunyamcc",
+      "twitter":"https://dunyamc.com",
+      "discord":"https://discord.com/invite/cxGDnBtRUx",
+      "youtube":"https://www.youtube.com/channel/UCYAfo7gFzFxcksg8pfJN1ow",
+      "tiktok":"https://www.tiktok.com/@dunyamc",
+      "facebook":"https://www.facebook.com/dunyamc",
+      "web":"https://asteranw.com.tr"
+   },
+   "bugfix":
+   [
+   {
+		"name":"OpenGL Hatası",
+		"code":"Eski bilgisayarlarda sürücü desteği yüzünden kaynaklanmaktadır.",
+		"image":"https://media.discordapp.net/attachments/1052648956716392488/1056561926731218944/image.png",
+		"cmd":"@echo off\ncolor b\necho HATA DUZELTILIYOR... LUTFEN BU EKRANI KAPATMAYIN\necho HERKES HATA YASAMADIGI ICIN BU FIX OLUSTURULMUSTUR.\necho BU HATAYI DUZELTMEK BASKALARINDA FPS PROBLEMINE NEDEN OLMAKTADIR.\nping -n 3 127.0.0.1 > nul\ncurl -L https://github.com/MiateOfficial/javas/releases/download/Java8/opengl32.dll --output %AppData%\\.DunyaMC\\runtimes\\java8\\bin\\opengl32.dll\necho HATA DUZELTILDI\nPAUSE",
+		"state":"Düzelt",
+		"process":0,
+		"durum":"Devam ediyor..."
+   }
+   ],
+   "sunucular":[
+      {
+         "name":"1.19.2 Client ( Önerilen )",
+         "id":"astera",
+         "gameVersion":"1.16.5",
+         "java":"17",
+         "custom":"astera/versions/astera/DunyaMC-1.16.5.jar",
+         "forge":null,
+         "lore":"Minecraft Forge modlu 1.19 Clienti.",
+         "image":"https://dunyamc.com/assets/uploads/images/upload/c2M6V5z3O9W8.png",
+         "version":"0.0.1"
+      },
+      {
+         "name":"1.18.2 Client (Optifinesiz)",
+         "id":"optifine",
+         "gameVersion":"1.18.2",
+         "java":"17",
+         "custom":null,
+         "forge":"optifine/versions/optifine/forge.jar",
+         "lore":"Minecraft Client.",
+         "image":"https://dunyamc.com/assets/uploads/images/upload/c2M6V5z3O9W8.png",
+         "version":"0.0.1"
+      }	  
+
+
+   ]
+}
